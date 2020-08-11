@@ -1,0 +1,15 @@
+cls
+ping localhost -n 4 >nul
+echo Red: Hello! 
+ping localhost -n 3 >nul
+echo You: ?
+ping localhost -n 2 >nul
+echo Red: Are you on drugs again? 
+ping localhost -n 3 >nul
+echo You: *...* 
+ping localhost -n 4 >nul
+echo Red: Aight imma kill u 
+ping localhost -n 5 >nul
+echo Game: You died
+pause
+del 1.bat
